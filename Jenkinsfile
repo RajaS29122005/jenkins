@@ -4,7 +4,7 @@ pipeline{
     stage("clone code"){
       steps{
         git branch: 'master',
-          url:
+          url:"https://github.com/RajaS29122005/jenkins/tree/master"
           }
     }
     stage("compile code"){
